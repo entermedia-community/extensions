@@ -1,0 +1,20 @@
+<plugins>
+
+
+<plugin id="testbench"  title="Online Testing Framework" vendorlink="http://ijsolutions.ca" currentversion="n/a" installscript="http://dev.ijsolutions.ca/job/TestPro/lastSuccessfulBuild/artifact/deploy/install.js"  depends="entermedia-server">
+	<description>Testing framework for OpenEdit that allows classes and courses to be run online.</description>
+</plugin>
+
+<plugin id="incentive"  title="Incentive Management System" vendorlink="http://ijsolutions.ca" currentversion="n/a" installscript="http://dev.ijsolutions.ca/job/incentive/lastSuccessfulBuild/artifact/deploy/install.js"  depends="mediamoneymaker">
+	<description>Adds an incentive tracking system to mediamoneymaker.</description>
+</plugin>
+
+
+<plugin id="reporting"  title="Extension-Birt" vendorlink="http://ijsolutions.ca" currentversion="n/a" installscript="http://dev.ijsolutions.ca/job/extension-birt/lastSuccessfulBuild/artifact/deploy/install.js"  >
+	<description>BIRT Reports</description>
+</plugin>
+
+
+
+
+</plugins>

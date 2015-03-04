@@ -1,0 +1,64 @@
+<plugins>
+
+	<plugin id="entermedia-server" title="EnterMedia Server" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-server/install.js" depends="">
+		<description>Base platforms</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="openedit" title="OpenEdit CMS" currentversion="" installscript="http://dev.entermediasoftware.com/projects/openedit/install.js" depends="entermedia-server">
+		<description>Online HTML editor</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="entermedia-cumulus" title="Cumulus Connector" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-cumulus/install.js" depends="entermedia-server">
+		<description>Enables importing and saving to Cumulus servers</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="entermedia-ooffice" title="EnterMedia Office" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-ooffice/install.js" depends="entermedia-server">
+		<description>Enables support for most Micorosft file formats</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="entermedia-rhozet" title="EnterMedia Rhozet" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-rhozet/install.js" depends="entermedia-server">
+		<description>Enables support for the Rhozet transcoding engine</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="entermedia-aspera" title="EnterMedia Aspera" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-aspera/install.js" depends="entermedia-server">
+		<description>Enables support for Aspera file transfers</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="entermedia-smartjog" title="EnterMedia SmartJog" currentversion="" installscript="http://dev.entermediasoftware.com/projects/entermedia-smartjog/install.js" depends="entermedia-server">
+		<description>Enables support for SmartJog</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="loudmouth" title="LoudMouth" currentversion="" installscript="http://dev.entermediasoftware.com/projects/loudmouth/install.js" depends="entermedia-server">
+		<description>Blog feature</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="mediamoneymaker" title="Media Money Maker" currentversion="" installscript="http://dev.entermediasoftware.com/projects/mediamoneymaker/install.js" depends="entermedia-server">
+		<description>eCommerce and checkout process</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="scout" title="Scout" currentversion="" installscript="http://dev.entermediasoftware.com/projects/scout/install.js" depends="entermedia-server">
+		<description></description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="sundial" title="SunDial" currentversion="" installscript="http://dev.entermediasoftware.com/projects/sundial/install.js" depends="entermedia-server">
+		<description>Event and calender API</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+	<plugin id="workmonger" title="WorkMonger" currentversion="" installscript="http://dev.entermediasoftware.com/projects/workmonger/install.js" depends="entermedia-server,sundial">
+		<description>Issue/Job tracker</description>
+		<currentversionnotes>
+				</currentversionnotes>
+	</plugin>
+
+</plugins>
